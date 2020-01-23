@@ -1,0 +1,17 @@
+{
+  "name": "MS Launcher",
+  "version": "0.2.0",
+  "manifest_version": 2,
+  "description": "MS Launcher: two clicks away from your essential apps",
+  "homepage_url": "https://dev.azure.com/mseng/AzureDevOps",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "MS Launcher",
+    "default_popup": "index.html"
+  }
+}

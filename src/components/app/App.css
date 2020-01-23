@@ -1,0 +1,6 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: SegoeUI-SemiBold, Helvetica, Arial, sans-serif;
+}

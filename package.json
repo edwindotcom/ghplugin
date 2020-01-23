@@ -1,0 +1,39 @@
+{
+  "name": "MSPlugin",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "lodash": "^4.17.14",
+    "node-sass": "^4.12.0",
+    "office-ui-fabric-core": "^10.1.0",
+    "office-ui-fabric-react": "^7.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "react-simple-tree-menu": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "INLINE_RUNTIME_CHUNK=false react-scripts build && yarn run icons",
+    "icons": "cp -R icons build/icons",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
